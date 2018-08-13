@@ -1,0 +1,16 @@
+SUSE	10.2	12/7/06
+Fedora	10	11/25/08
+SUSE	11	6/19/08
+Ubuntu	8.04	4/24/08
+Fedora	8	11/8/07
+SUSE	10.3	10/4/07
+Ubuntu	6.1	10/26/06
+Fedora	7	5/31/07
+Ubuntu	7.1	10/18/07
+Ubuntu	7.04	4/19/07
+SUSE	10.1	5/11/06
+Fedora	6	10/24/06
+Fedora	9	5/13/08
+Ubuntu	6.06	6/1/06
+Ubuntu	8.1	10/30/08
+Fedora	5	3/20/06
