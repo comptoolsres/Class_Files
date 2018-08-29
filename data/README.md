@@ -1,2 +1,5 @@
 # data
 This folder contains data used in examples, problemsets, etc.
+
+
+2018-08-29: MAG added large data file flights.May2017-Apr2018.csv not tracked in git due to size (861MB).
