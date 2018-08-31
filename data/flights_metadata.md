@@ -19,7 +19,7 @@ ORIGIN | Origin Airport
 ORIGIN_CITY_NAME | Origin Airport, City Name **Note that this column has a comma in it**
 ORIGIN_STATE_ABR | Origin Airport, State Code
 DEST | Destination Airport
-DEST_CITY_NAME | Destination Airport, City Name
+DEST_CITY_NAME | Destination Airport, City Name **Note that this column has a comma in it**
 DEST_STATE_ABR | Destination Airport, State Code
 DEP_TIME | Actual Departure Time (local time: hhmm)
 DEP_DELAY_NEW | Difference in minutes between scheduled and actual departure time. Early departures set to 0.
