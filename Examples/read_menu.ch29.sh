@@ -4,17 +4,21 @@
 DELAY=3 # Number of seconds to display results
 while [[ "$REPLY" != 0 ]]; do
     clear # clear the screen
+
+    # Display the menu to the user
     cat <<- _EOF_
         Please Select:
         1. Display System Information
         2. Display Disk Space
         3. Display Home Space Utilization
         0. Quit
-_EOF_ # Display the menu to the user
+_EOF_
+ 
     read -p "Enter selection [0-3] > " # Get input from user
     if [[ "$REPLY" =~ ^[0-3]$ ]]; then # If REPLY is between 0-3
         if [[ $REPLY == 1 ]]; then # If REPLY is 1
-            echo "Hostname: $HOSTNAME" uptime
+            echo "Hostname: $HOSTNAME" 
+            uptime
             sleep "$DELAY"
         fi
         if [[ "$REPLY" == 2 ]]; then # If REPLY is 2
