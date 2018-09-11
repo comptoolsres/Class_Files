@@ -1,6 +1,6 @@
 # flights.May2017-Apr2018.csv Metadata
 
-## Information about the flights.May2017-Apr2018.csv file in Class_Files/data/
+## Information about the flights.May2017-Apr2018.csv file.
 
 This file contains US commercial flight information from the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp).
 The data are from May of 2017 to April of 2018.
