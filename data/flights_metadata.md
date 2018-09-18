@@ -23,10 +23,10 @@ DEST_CITY_NAME | Destination Airport, City Name **Note that this column has a co
 DEST_STATE_ABR | Destination Airport, State Code
 DEP_TIME | Actual Departure Time (local time: hhmm)
 DEP_DELAY_NEW | Difference in minutes between scheduled and actual departure time. Early departures set to 0.
-DEP_DEL15 | Departure Delay Indicator, 15 Minutes or More (1=Yes)
+DEP_DEL15 | Departure Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
 ARR_TIME | Actual Arrival Time (local time: hhmm)
 ARR_DELAY_NEW | Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.
-ARR_DEL15 | Arrival Delay Indicator, 15 Minutes or More (1=Yes)
+ARR_DEL15 | Arrival Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
 CANCELLED | Cancelled Flight Indicator (1=Yes)
 CANCELLATION_CODE | Specifies The Reason For Cancellation
 DIVERTED | Diverted Flight Indicator (1=Yes)
