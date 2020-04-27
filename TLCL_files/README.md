@@ -1,6 +1,6 @@
 # Files for exercises from The Linux Command Line textbook
 
-* The .nanorc adds syntax coloring for bash and python. Copy to your home directory:
+* The `.nanorc` file adds syntax coloring for Bash and Python to the `nano` command line text editor. Copy to your home directory:
 ```bash
 cp .nanorc ~/
 ```
