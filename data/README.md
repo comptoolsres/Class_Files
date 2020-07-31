@@ -1,5 +1,8 @@
 # data
-This folder contains data used in examples, problemsets, etc.
+
+This folder contains data used in examples, problem sets, etc.
+
+2020-07-21: MAG added Gainesville_weather_1960-2020.csv with historical weather data for Gainesville, FL.
 
 2018-10-11: MAG added CO-OPS__8729108__wl.csv and its metadata file CO_OPS__wl_file.md.
 
