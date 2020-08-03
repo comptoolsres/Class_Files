@@ -1,20 +1,29 @@
-# flights.May2017-Apr2018.csv Metadata
+# flights.May2018-April2020.csv and flights.May2017-Apr2018.csv Metadata
 
-## Information about the flights.May2017-Apr2018.csv file.
+## Information about the flights.May2018-April2020.csv and flights.May2017-Apr2018.csv file
 
-This file contains US commercial flight information from the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp).
-The data are from May of 2017 to April of 2018.
+### File availability
 
+These two files are too large to host in github. They are available via these Dropbox links:
 
-Data were downloaded July 19, 2018.
+* [`flights.May2017-Apr2018.csv`](https://www.dropbox.com/s/jizx4ijnpxmi3av/flights.May2017-Apr2018.csv?dl=0)
+* [`flights.May2018-April2020.csv`](https://www.dropbox.com/s/r9ygw12bp2f6aml/flights.May2018-April2020.csv?dl=0)
 
+These files contain US commercial flight on-time arrival information from the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp).
+
+The data are from two time frames:
+
+* `flights.May2017-Apr2018.csv`: data are from May 2017 to April 2018. Downloaded July 19, 2018.
+* `flights.May2018-April2020.csv`: data are from May 2018 to April 20202. Downloaded July 31, 2020.
+
+Unfortunately, one of the data columns in the two files is different. For the 2017-2018 data, the second column is a numeric code for the airline. While in the 2018-2020 data, it is a letter code for the airline. The rest of the columns should be identical. But due to the difference, the two files were not combined.
 
 The columns in the dataset are in the table below.
 
 Column header | Description
 --------------|------------
 FL_DATE | Date of the flight
-AIRLINE_ID | An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.
+2017-2018 file: AIRLINE_ID <br><br> 2018-2020 file: OP_UNIQUE_CARRIER | An identification number assigned by US DOT to identify a unique airline (carrier). <br><br> Unique Carrier Code
 ORIGIN | Origin Airport
 ORIGIN_CITY_NAME | Origin Airport, City Name **Note that this column has a comma in it**
 ORIGIN_STATE_ABR | Origin Airport, State Code
