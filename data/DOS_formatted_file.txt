@@ -1,0 +1,12 @@
+This is an example DOS text file.
+
+Notice the extra new line characters when viewed with cat -A.
+
+Creating a file on Windows using DOS line breaks and uploading the file to
+Linux is a constant source of pain. When you look at the file, everything
+seems normal. But Linux commands will often read the file as one long line.
+This breaks many things and causes trouble...
+
+To convert a DOS file to Linux, use the dos2unix command:
+  dos2unix file.text
+  
