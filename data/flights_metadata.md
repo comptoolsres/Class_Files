@@ -20,30 +20,30 @@ Unfortunately, one of the data columns in the two files is different. For the 20
 
 The columns in the dataset are in the table below.
 
-Column header | Description
---------------|------------
-FL_DATE | Date of the flight
-2017-2018 file: AIRLINE_ID <br><br> 2018-2020 file: OP_UNIQUE_CARRIER | An identification number assigned by US DOT to identify a unique airline (carrier). <br><br> Unique Carrier Code
-ORIGIN | Origin Airport
-ORIGIN_CITY_NAME | Origin Airport, City Name **Note that this column has a comma in it**
-ORIGIN_STATE_ABR | Origin Airport, State Code
-DEST | Destination Airport
-DEST_CITY_NAME | Destination Airport, City Name **Note that this column has a comma in it**
-DEST_STATE_ABR | Destination Airport, State Code
-DEP_TIME | Actual Departure Time (local time: hhmm)
-DEP_DELAY_NEW | Difference in minutes between scheduled and actual departure time. Early departures set to 0.
-DEP_DEL15 | Departure Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
-ARR_TIME | Actual Arrival Time (local time: hhmm)
-ARR_DELAY_NEW | Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.
-ARR_DEL15 | Arrival Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
-CANCELLED | Cancelled Flight Indicator (1=Yes)
-CANCELLATION_CODE | Specifies The Reason For Cancellation
-DIVERTED | Diverted Flight Indicator (1=Yes)
-AIR_TIME | Flight Time, in Minutes
-FLIGHTS | Number of Flights
-DISTANCE | Distance between airports (miles)
-CARRIER_DELAY | Carrier Delay, in Minutes
-WEATHER_DELAY | Weather Delay, in Minutes
-NAS_DELAY | National Air System Delay, in Minutes
-SECURITY_DELAY | Security Delay, in Minutes
-LATE_AIRCRAFT_DELAY | Late Aircraft Delay, in Minutes
+Column #|Column header | Description
+--------|--------------|------------
+1|FL_DATE | Date of the flight
+2|2017-2018 file: AIRLINE_ID <br><br> 2018-2020 file: OP_UNIQUE_CARRIER | An identification |number assigned by US DOT to identify a unique airline (carrier). <br><br> Unique Carrier Code
+3|ORIGIN | Origin Airport
+4|ORIGIN_CITY_NAME | Origin Airport, City Name **Note that this column has a comma in it**
+5|ORIGIN_STATE_ABR | Origin Airport, State Code
+6|DEST | Destination Airport
+7|DEST_CITY_NAME | Destination Airport, City Name **Note that this column has a comma in it**
+8|DEST_STATE_ABR | Destination Airport, State Code
+9|DEP_TIME | Actual Departure Time (local time: hhmm)
+10|DEP_DELAY_NEW | Difference in minutes between scheduled and actual departure time. Early |departures set to 0.
+11|DEP_DEL15 | Departure Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
+12|ARR_TIME | Actual Arrival Time (local time: hhmm)
+13|ARR_DELAY_NEW | Difference in minutes between scheduled and actual arrival time. Early |arrivals set to 0.
+14|ARR_DEL15 | Arrival Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
+15|CANCELLED | Cancelled Flight Indicator (1=Yes)
+16|CANCELLATION_CODE | Specifies The Reason For Cancellation
+17|DIVERTED | Diverted Flight Indicator (1=Yes)
+18|AIR_TIME | Flight Time, in Minutes
+19|FLIGHTS | Number of Flights
+20|DISTANCE | Distance between airports (miles)
+21|CARRIER_DELAY | Carrier Delay, in Minutes
+22|WEATHER_DELAY | Weather Delay, in Minutes
+23|NAS_DELAY | National Air System Delay, in Minutes
+24|SECURITY_DELAY | Security Delay, in Minutes
+25|LATE_AIRCRAFT_DELAY | Late Aircraft Delay, in Minutes
