@@ -43,7 +43,7 @@ parser.add_argument('--version', action='version',
 
 parser.add_argument('--times', '-t',
                     help='Number of times to print each line, default=1',
-                    default=1)
+                    default=1, type=int)
 # Parse the command line arguments
 args = parser.parse_args()
 
@@ -64,10 +64,12 @@ for line in file_handle:
   line=line.strip()
   #ignore blank lines initially
   if not (len(line) == 0):
-    print(line)
+    for time in range(args.times):
+      print(line)
   # if --print was passed, print the blank lines
   elif args.print:
-    print(line)
+    for time in range(args.times):
+      print(line)
 
 if args.verbose > 1 :
   print(f"Finished reading {args.input}.")
