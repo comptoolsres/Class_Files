@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# args.py: Domo of the sys.argv command line parsing
+# args.py: Demo of the sys.argv command line parsing
 
 import sys
 
