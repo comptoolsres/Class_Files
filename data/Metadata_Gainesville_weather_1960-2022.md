@@ -1,8 +1,8 @@
-# Metadata for file Gainesville_weather_1960-2020.csv
+# Metadata for file Gainesville_weather_1960-2022.csv
 
-The data file `Gainesville_weather_1960-2020.csv` contains the historical daily weather station data for the Gainesville Regional Airport in Gainesville, FL.
+The data file `Gainesville_weather_1960-2022.csv` contains the historical daily weather station data for the Gainesville Regional Airport in Gainesville, FL.
 
-It was downloaded from [https://www.ncdc.noaa.gov/cdo-web/](https://www.ncdc.noaa.gov/cdo-web/) on July 23, 2020.
+It was downloaded from [https://www.ncdc.noaa.gov/cdo-web/](https://www.ncdc.noaa.gov/cdo-web/) on August 1st, 2022.
 
 The column headers are:
 
