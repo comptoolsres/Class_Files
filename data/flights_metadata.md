@@ -71,6 +71,7 @@ done
 
 ```
 
+Since I had already deleted the individual files by the time I realized this, I cleaned up the `flights_May2020-April2022.csv` file with: `sed -i '/T_ONTIME_REPORTING_/d' flights.May2020-April2022.csv` That deleted the lines that had `T_ONTIME_REPORTING_` in them.
 
 
 
