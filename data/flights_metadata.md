@@ -61,6 +61,16 @@ head -n1 T_ONTIME_REPORTING_2020_05.csv >  flights_May2020-April2022.csv
 tail -n +2 T_ONTIME_REPORTING_202* >> flights_May2020-April2022.csv
 ```
 
+:grimacing: Opps...that ends up with lines for each filename...should have used something like:
+
+```bash
+for file in T_ONTIME_REPORTING_202*
+do 
+tail -n +2 $file>> flights_May2020-April2022.csv
+done
+
+```
+
 
 
 
