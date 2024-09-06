@@ -2,7 +2,7 @@
 
 The data file `Gainesville_weather_1960-2024.csv` contains the historical daily weather station data for the Gainesville Regional Airport in Gainesville, FL.
 
-It was downloaded from [https://www.ncei.noaa.gov/access/search/data-search/daily-summaries?bbox=29.773,-82.446,29.531,-82.204](the National Centers for Environmental Information) on August 20, 2024.
+It was downloaded from [the National Centers for Environmental Information](https://www.ncei.noaa.gov/access/search/data-search/daily-summaries?bbox=29.773,-82.446,29.531,-82.204) on August 20, 2024.
 
 The column headers kept from the full dataset are:
 
